@@ -2,9 +2,6 @@
  * This file is the entry point to the client.
  */
 
-#define  _POSIX_C_SOURCE 200809L
-#define  _GNU_SOURCE
-
 #include <ctype.h>
 #include <errno.h>
 #include <stdbool.h>
