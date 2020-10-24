@@ -1,4 +1,4 @@
-# Basic Service Manager
+# Service Manager
 
 _This program was written for CS2106 Lab 2._
 
