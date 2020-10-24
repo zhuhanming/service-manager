@@ -1,8 +1,8 @@
-# CS2106 Lab 2 Exercise 6
+# Basic Service Manager
 
-_Zhu Hanming | A0196737L_
+_This program was written for CS2106 Lab 2. Parts of the code were provided, and those parts been labelled accordingly._
 
-> This file was written as a Markdown file. Please feel free to rename this file to README.md for a better viewing experience.
+This service manager helps you to manage command line commands that you execute (also called services), allowing you to see their statuses, and wait on them or kill them as required. Do refer to [Commands](#commands) for the exact commands that can be executed.
 
 ## Contents
 
@@ -17,8 +17,9 @@ _Zhu Hanming | A0196737L_
 The current directory structure is as shown below:
 
 ```bash
-ex6/
+service-manager/
 ├─main.c
+├─Makefile
 ├─sm.h
 ├─sm.c
 ├─smc.c
@@ -48,8 +49,7 @@ Contains the client-side code. This is the program that launches into a prompt, 
 To run this program, first run
 
 ```bash
-make
-gcc -std=c99 -Wall -Wextra smc.c -o smc
+make all
 ```
 
 to compile the files into executables. Thereafter, run
@@ -127,7 +127,7 @@ For this section, we will quickly run through some of the strengths of this curr
 
 ### Minimal changes to `main.c` and no changes to `sm.c`
 
-One strength of this socket implementation is that not much changes were needed to the existing code. This is because by setting up the socket and redirecting stdout and stderr to the socket descriptor, the rest of the programs can continue on without noticing any difference. Abstraction is well-maintained using this implementation.
+This lab assignment was a multi-part exercise, with the last exercise being daemonisation. As such, one strength of this socket implementation is that not much changes were needed to the code written for the previous exercises. This is because by setting up the socket and redirecting stdout and stderr to the socket descriptor, the rest of the programs can continue on without noticing any difference. Abstraction is well-maintained using this implementation.
 
 ### Use of UNIX domain sockets
 
