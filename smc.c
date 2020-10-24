@@ -1,9 +1,5 @@
 /**
- * CS2106 AY 20/21 Semester 1 - Lab 2 Exercise 6
- * 
- * Name: Zhu Hanming
- * Student No: A0196737L
- * Lab Group: 13
+ * This file is the entry point to the client.
  */
 
 #define  _POSIX_C_SOURCE 200809L
@@ -185,6 +181,10 @@ int handle_command(char ***tokensp) {
   }
   return 0;
 }
+
+// ==================== //
+// UNMODIFIED FUNCTIONS //
+// ==================== //
 
 // Copied from original main.c
 static size_t tokenise(char *const line, char ***tokens) {

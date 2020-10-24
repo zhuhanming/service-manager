@@ -1,9 +1,5 @@
 /**
- * CS2106 AY 20/21 Semester 1 - Lab 2 Exercise 6
- * 
- * Name: Zhu Hanming
- * Student No: A0196737L
- * Lab Group: 13
+ * This file is the entry point to the server.
  */
 
 #include <ctype.h>

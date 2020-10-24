@@ -1,12 +1,5 @@
 /**
- * CS2106 AY 20/21 Semester 1 - Lab 2 Exercise 6
- *
- * This file contains function definitions. Your implementation should go in
- * this file.
- * 
- * Name: Zhu Hanming
- * Student No: A0196737L
- * Lab Group: 13
+ * This file contains function definitions for the service manager.
  */
 
 #include <unistd.h>
