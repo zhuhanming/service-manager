@@ -1,6 +1,6 @@
 # Basic Service Manager
 
-_This program was written for CS2106 Lab 2. Parts of the code were provided, and those parts been labelled accordingly._
+_This program was written for CS2106 Lab 2._
 
 This service manager helps you to manage command line commands that you execute (also called services), allowing you to see their statuses, and wait on them or kill them as required. Do refer to [Commands](#commands) for the exact commands that can be executed.
 
